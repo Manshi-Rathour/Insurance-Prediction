@@ -5,11 +5,10 @@ API_URL = "http://54.83.171.52:8000/predict"
 
 st.set_page_config(
     page_title="Insurance Premium Predictor",
-    page_icon="🏥",
     layout="centered"
 )
 
-st.title("🏥 Insurance Premium Category Predictor")
+st.title("Insurance Premium Category Predictor")
 st.markdown("Enter your details below to predict your insurance premium category.")
 
 # Input fields
